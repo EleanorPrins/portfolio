@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template | Eleanor's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/resources/shared.css">
+</head>
+
+<body>
+    <main>
+        <div class="line bottom"></div>
+        <div class="line top"></div>
+        <div class="line left"></div>
+        <div class="line right"></div>
+        <div class="content">
+            <div class="left-side">
+                <div id="titlecard">
+                    <a href="/index.html" title="Back to home">
+                        <img src="/resources/back.svg" alt="Back">
+                    </a>
+                    <h1>Web API Implimentations</h1>
+                </div>
+                <p>
+                    Web API Implimentations is actually called Web Crypto Implimentations, but stop! don't run away
+                    because it says crypto! This project is not a cryptocurrency project, it's a project that that
+                    impliments the Web Crypto API, which is <em>cryptography</em>.
+                    <br><br>
+                    Now that we've cleared that up, let's talk about the project. I created this because I wanted an
+                    easy way to use the Web Crypto API in cloudflare workers. NodeJS has a built in crypto module, but
+                    cloudflare workers would have needed nodejs compat enabled which isn't recommended.
+                    <br><br>
+                    There's not much else to say! Something odd about the project is that it works mostly on keys that
+                    have been converted to strings. I did this because of more compatibility with storing the key if
+                    ever needed be, but it shouldn't affect performance much if at all.
+                </p>
+            </div>
+            <div class="right-side">
+                <div class="links">
+                    <h1>Links</h1>
+                    <a href="https://github.com/Joyte/webcrypto-implimentations" target="_blank" title="GitHub">
+                        <img src="/resources/github.svg" alt="GitHub">
+                    </a>
+                </div>
+                <div class="images">
+                    <h1>Images</h1>
+                    <a href="/resources/webapi-implimentations-1.jpg" target="_blank"
+                        title="A function named key_to_raw">
+                        <img src="/resources/webapi-implimentations-1.jpg" alt="A function named key_to_raw">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
